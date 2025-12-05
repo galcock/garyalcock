@@ -3,133 +3,163 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Writing — Gary Alcock</title>
-  <meta name="description" content="Writing by Gary Alcock on private equity, technology, and physics, including Density Field Dynamics and book projects." />
-  <meta name="author" content="Gary Alcock" />
-  <meta name="robots" content="all" />
-  <meta name="theme-color" content="#050816" />
+  <title>Writing &amp; Projects — Gary Alcock</title>
+  <meta name="description" content="Writing projects by Gary Alcock, including Lazy Universe and technical/non-technical work at the interface of physics, technology, and capital allocation." />
   <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="all">
+  <meta name="author" content="Gary Alcock" />
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f5f7;
+      --bg-alt: #ffffff;
+      --text: #14151a;
+      --muted: #61636f;
+      --accent: #0b63ce;
+      --border: #d3d4dd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #050711;
+        --bg-alt: #0d101b;
+        --text: #f5f5fa;
+        --muted: #9a9db0;
+        --accent: #4d9dff;
+        --border: #242735;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page { max-width: 960px; margin: 0 auto; padding: 24px 18px 48px; }
+    header {
+      padding: 12px 0 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .name-row {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      gap: 12px; flex-wrap: wrap;
+    }
+    h1 { font-size: 1.9rem; font-weight: 600; margin: 0; }
+    .subtitle {
+      margin: 4px 0 0; font-size: 0.98rem; color: var(--muted); max-width: 48rem;
+    }
+    .contact { font-size: 0.9rem; color: var(--muted); }
+    .contact a { margin-left: 0.2rem; }
+    .nav-row {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; font-size: 0.9rem;
+    }
+    .nav-link {
+      padding: 6px 10px; border-radius: 999px;
+      border: 1px solid var(--border); background: transparent;
+    }
+    main {
+      display: flex; flex-direction: column; gap: 20px; margin-top: 12px;
+    }
+    section {
+      background: var(--bg-alt); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px 18px;
+    }
+    section h2 {
+      font-size: 1.05rem; margin: 0 0 8px; font-weight: 600;
+    }
+    section p { margin: 4px 0 8px; font-size: 0.95rem; }
+    ul { margin: 6px 0 2px; padding-left: 18px; font-size: 0.94rem; }
+    li { margin-bottom: 4px; }
+    .muted { color: var(--muted); }
+    .small { font-size: 0.86rem; }
+    footer {
+      margin-top: 24px; padding-top: 12px;
+      border-top: 1px solid var(--border); font-size: 0.82rem; color: var(--muted);
+    }
+    @media (max-width: 640px) {
+      .page { padding: 16px 14px 40px; }
+      header { margin-bottom: 18px; }
+    }
+  </style>
 </head>
 
 <body>
-  <header class="site-header">
-    <div class="container site-header-inner">
-      <h1 class="site-title"><a href="/">Gary Alcock</a></h1>
-      <nav class="nav" aria-label="Primary">
-        <a href="index.html">Overview</a>
-        <a href="research.html">Research</a>
-        <a href="consulting.html">Consulting</a>
-        <a href="writing.html" class="active">Writing</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="hero">
-      <div class="hero-layout">
+  <div class="page">
+    <header>
+      <div class="name-row">
         <div>
-          <div class="hero-kicker">Writing</div>
-          <h1>Connecting capital, technology, and physics.</h1>
-          <p class="hero-subtitle">
-            I write in three lanes: <strong>private equity and deal work</strong>,
-            <strong>technology and augmented reality</strong>, and
-            <strong>Density Field Dynamics</strong>. The common thread is how systems behave under
-            pressure — markets, code, or physical laws.
+          <h1>Writing &amp; Projects</h1>
+          <p class="subtitle">
+            Non-technical and technical work at the intersection of physics, technology, and capital allocation.
           </p>
         </div>
-        <aside class="hero-panel" aria-label="Projects">
-          <h2>Projects</h2>
-          <p>
-            Current long-form work includes a practical book on private equity for operators and
-            students, and technical papers on DFD, optical clocks, and refractive gravity tests.
-          </p>
-        </aside>
+        <div class="contact">
+          Los Angeles, CA<br>
+          <a href="mailto:gary@garyalcock.com">gary@garyalcock.com</a>
+        </div>
       </div>
-    </section>
 
-    <section class="section">
-      <h2>Books &amp; long-form projects</h2>
-      <div class="grid grid-2">
-        <article class="card">
-          <h3>Skip the MBA, Own the Company</h3>
-          <p>
-            A practical guide to thinking like a private equity investor without disappearing into
-            jargon or academic theory. Focused on how deals actually get found, evaluated, and
-            operated in the real world.
-          </p>
-          <p class="card-meta">
-            Status: in active development. Intended audience: students, aspiring investors, and
-            operators who want a clear picture of how PE really works.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Density Field Dynamics papers</h3>
-          <p>
-            A series of technical manuscripts on the DFD framework — from foundational derivations
-            and PPN analysis to experimental protocols and data re-analysis.
-          </p>
-          <p class="card-meta">
-            Archive: <a href="https://densityfielddynamics.com/" rel="noopener">DFD research archive</a>.
-          </p>
-        </article>
+      <div class="nav-row">
+        <a class="nav-link" href="/index.html">Home</a>
+        <a class="nav-link" href="/research.html">Physics / DFD</a>
+        <a class="nav-link" href="/consulting.html">Consulting</a>
+        <a class="nav-link" href="/contact.html">Contact</a>
+        <a class="nav-link" href="https://densityfielddynamics.com">DFD archive</a>
       </div>
-    </section>
+    </header>
 
-    <section class="section">
-      <h2>Selected topics</h2>
-      <div class="grid grid-2">
-        <article class="card">
-          <h3>Private equity &amp; deals</h3>
-          <ul class="clean">
-            <li>What actually matters in a first pass on a CIM or teaser.</li>
-            <li>How to think about downside and structural risk without getting lost in edge-case scenarios.</li>
-            <li>Why sourcing architecture is as important as modeling ability.</li>
-          </ul>
-        </article>
+    <main>
+      <section>
+        <h2>Books</h2>
+        <ul>
+          <li>
+            <strong>Lazy Universe</strong> — <em>in active development</em>.<br>
+            A non-technical exploration of Density Field Dynamics and what it would mean if gravity is
+            fundamentally a refractive-density phenomenon, from cosmic expansion and timekeeping to the way
+            we talk about energy, information, and “empty” space.
+          </li>
+        </ul>
+      </section>
 
-        <article class="card">
-          <h3>Technology &amp; AR</h3>
-          <ul class="clean">
-            <li>Designing games and applications for Apple Vision Pro and future spatial platforms.</li>
-            <li>How AR changes incentive structures more than VR ever did.</li>
-            <li>Lessons learned from building an MMO-scale AR game solo with heavy use of AI tooling.</li>
-          </ul>
-        </article>
+      <section>
+        <h2>Technical Writing</h2>
+        <p>
+          Technical work on DFD is primarily released as preprints and data notes.
+        </p>
+        <ul>
+          <li><a href="https://densityfielddynamics.com">densityfielddynamics.com</a> — main technical archive and figures.</li>
+          <li>
+            <a href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">
+              Zenodo record set
+            </a> — clock data analyses, methods notes, and supporting material.
+          </li>
+        </ul>
+      </section>
 
-        <article class="card">
-          <h3>Physics &amp; DFD</h3>
-          <ul class="clean">
-            <li>How optical clocks and cavities can test scalar-refractive gravity models.</li>
-            <li>Why line-of-sight refractive effects matter for local H₀ inferences.</li>
-            <li>What a sector-resolved LPI test would tell us about gravity’s coupling to matter.</li>
-          </ul>
-        </article>
+      <section>
+        <h2>Essays &amp; Talks</h2>
+        <p>
+          Selected public essays, talks, and slide decks will be listed here as they are released.
+        </p>
+        <ul>
+          <li>Forthcoming: shorter pieces on clock experiments, ownership vs. employment, and decision-making under uncertainty.</li>
+        </ul>
+      </section>
+    </main>
 
-        <article class="card">
-          <h3>Essays &amp; notes</h3>
-          <p>
-            Shorter essays and notes occasionally appear on X and other platforms; this page will
-            eventually collect stable versions of the pieces that are most useful to reference.
-          </p>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p class="muted">
-        © <span id="y"></span> Gary Alcock ·
-        <a href="index.html">Overview</a>
+    <footer>
+      <p>
+        © <span id="y"></span> Gary Alcock · All writing here and on associated sites is personal and does not represent any current or former employer.
       </p>
-      <p class="muted small">
-        Draft excerpts or outlines may be shared privately on request for relevant collaborations.
-      </p>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
