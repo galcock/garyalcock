@@ -3,141 +3,319 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gary Alcock</title>
-  <meta name="description" content="Gary Alcock — private equity and technology investor, and independent researcher working on Density Field Dynamics and precision optical clock tests." />
-  <meta name="author" content="Gary Alcock" />
-  <meta name="robots" content="all" />
-  <meta name="theme-color" content="#050816" /> 
+  <title>Gary Alcock — Research & Private Equity</title>
+  <meta name="description" content="Gary Alcock — independent researcher (Density Field Dynamics) and private equity executive focused on industrial carve-outs, special situations, and quantitative gravity/optics research." />
   <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="all">
+  <meta name="author" content="Gary Alcock" />
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f5f7;
+      --bg-alt: #ffffff;
+      --text: #14151a;
+      --muted: #61636f;
+      --accent: #0b63ce;
+      --border: #d3d4dd;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #050711;
+        --bg-alt: #0d101b;
+        --text: #f5f5fa;
+        --muted: #9a9db0;
+        --accent: #4d9dff;
+        --border: #242735;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+
+    header {
+      padding: 12px 0 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+
+    .name-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .subtitle {
+      margin: 4px 0 0;
+      font-size: 0.98rem;
+      color: var(--muted);
+      max-width: 48rem;
+    }
+
+    .contact {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .contact a { margin-left: 0.2rem; }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 12px;
+    }
+
+    section {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+    }
+
+    section h2 {
+      font-size: 1.05rem;
+      margin: 0 0 8px;
+      font-weight: 600;
+    }
+
+    section p {
+      margin: 4px 0 8px;
+      font-size: 0.95rem;
+    }
+
+    ul {
+      margin: 6px 0 2px;
+      padding-left: 18px;
+      font-size: 0.94rem;
+    }
+
+    li { margin-bottom: 4px; }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .pill {
+      font-size: 0.78rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .nav-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+      font-size: 0.9rem;
+    }
+
+    .nav-link {
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: transparent;
+    }
+
+    .nav-link strong {
+      font-weight: 500;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 24px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .page { padding: 16px 14px 40px; }
+      header { margin-bottom: 18px; }
+    }
+  </style>
 </head>
 
 <body>
-  <header class="site-header">
-    <div class="container site-header-inner">
-      <h1 class="site-title"><a href="/">Gary Alcock</a></h1>
-      <nav class="nav" aria-label="Primary">
-        <a href="index.html" class="active">Overview</a>
-        <a href="research.html">Research</a>
-        <a href="consulting.html">Consulting</a>
-        <a href="writing.html">Writing</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="section">
-      <h1>Overview</h1>
-      <p>
-        I work at the intersection of <strong>private equity</strong>, <strong>technology</strong>, and
-        <strong>precision physics</strong>. My background is in leveraged buyouts, corporate divestitures,
-        and special situations across industrials, manufacturing, and technology-driven services. In
-        parallel, I pursue independent research on a scalar-field framework for gravity and light,
-        <em>Density Field Dynamics (DFD)</em>, with concrete experimental proposals based on state-of-the-art
-        optical clock systems.
-      </p>
-      <p>
-        I am based in Los Angeles and hold a B.S. in Corporate Finance from the University of Southern California.
-      </p>
-
-      <p class="muted">
-        Profiles and archives:<br>
-        · <a href="https://densityfielddynamics.com" rel="noopener">Density Field Dynamics site</a><br>
-        · <a href="https://densityfielddynamics.com/dfd-archive.html" rel="noopener">DFD research archive</a><br>
-        · <a href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22" rel="noopener">Zenodo record of preprints</a><br>
-        · <a href="https://github.com/galcock" rel="noopener">GitHub</a><br>
-        · <a href="https://x.com/GaryAlcock" rel="noopener">X (@GaryAlcock)</a><br>
-        · <a href="https://www.linkedin.com/in/gary-a-a223b65/" rel="noopener">LinkedIn</a>
-      </p>
-    </section>
-
-    <section class="section">
-      <h2>Areas of work</h2>
-
-      <div class="grid grid-2">
-        <article class="card">
-          <h3><a href="consulting.html" style="color:inherit;text-decoration:none;">Private equity and special situations</a></h3>
-          <p>
-            I have led and supported transactions across the full deal cycle: sourcing, diligence, structuring,
-            and post-close value creation. Most of my work has been in industrials, manufacturing, and related
-            services, including carve-outs and operationally intensive situations.
+  <div class="page">
+    <header>
+      <div class="name-row">
+        <div>
+          <h1>Gary Alcock</h1>
+          <p class="subtitle">
+            Independent researcher (Density Field Dynamics) · Private equity &amp; special situations ·
+            Industrial carve-outs, distressed buyouts, and quantitative gravity/optics.
           </p>
-          <p class="card-meta">
-            Previous roles include Managing Director positions at Liberty Bay Capital and Revolution Capital Group,
-            and advisory work at Houlihan Lokey. I have been involved in more than <strong>50 completed transactions</strong>
-            with aggregate enterprise value in excess of <strong>$10 billion</strong>.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3><a href="research.html" style="color:inherit;text-decoration:none;">Density Field Dynamics and precision tests</a></h3>
-          <p>
-            My research centers on <strong>Density Field Dynamics (DFD)</strong>, a scalar-refractive framework in which a
-            field ψ(x) sets both the optical index and test-mass acceleration on flat ℝ³. The program is designed to
-            be falsifiable with existing and near-term experiments.
-          </p>
-          <p class="card-meta">
-            Current work includes PPN analysis, strong-field and gravitational-wave phenomenology, and proposals for
-            sector-resolved <strong>cavity–atom comparisons</strong> and optical clock tests of Local Position Invariance.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3><a href="research.html" style="color:inherit;text-decoration:none;">Optical clocks and LPI-style anomalies</a></h3>
-          <p>
-            I re-analyze long-baseline optical clock comparison data to examine whether photons and atoms respond
-            identically to the same energy-density environment, and how to design experiments that cleanly test that
-            question.
-          </p>
-          <p class="card-meta">
-            This includes work with ROCIT-style datasets and proposed <strong>height-separated cavity–atom</strong> configurations
-            that would isolate sector-dependent couplings beyond General Relativity.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3><a href="research.html" style="color:inherit;text-decoration:none;">Augmented reality and game systems</a></h3>
-          <p>
-            On the technology side, I build augmented reality applications on Apple’s VisionOS stack, focusing on
-            full-scene reconstruction, physically motivated shaders, and shared-world gameplay.
-          </p>
-          <p class="card-meta">
-            Ongoing work includes an AR role-playing game with <strong>MMO-style interaction</strong> and real-world
-            environment integration for Apple Vision Pro.
-          </p>
-        </article>
+        </div>
+        <div class="contact">
+          Los Angeles, CA<br>
+          <a href="mailto:gary@gtacompanies.com">gary@gtacompanies.com</a>
+        </div>
       </div>
-    </section>
 
-    <section class="section">
-      <h2>How I work</h2>
-      <p>
-        Across finance, physics, and software, I try to keep the same principles: clear assumptions, explicit tests,
-        and a bias toward concrete results. I am comfortable working with sponsors and operating teams on one side,
-        and with experimentalists and theorists on the other.
-      </p>
-      <p>
-        For serious collaboration or advisory inquiries, please see the <a href="contact.html">Contact</a> page.
-      </p>
-    </section>
-  </main>
+      <div class="nav-row" style="margin-top:10px">
+        <a class="nav-link" href="https://densityfielddynamics.com"><strong>DFD research archive</strong></a>
+        <a class="nav-link" href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">Zenodo preprints</a>
+        <a class="nav-link" href="https://github.com/galcock">GitHub</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/gary-a-a223b65/">LinkedIn</a>
+        <a class="nav-link" href="/cv.html">Academic / professional CV</a>
+        <a class="nav-link" href="/writing.html">Writing &amp; talks</a>
+      </div>
+    </header>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p class="muted">
-        © <span id="y"></span> Gary Alcock ·
-        <a href="research.html">Research</a> ·
-        <a href="consulting.html">Consulting</a> ·
-        <a href="writing.html">Writing</a> ·
-        <a href="contact.html">Contact</a> ·
-        <a href="https://densityfielddynamics.com" rel="noopener">DFD site</a>
+    <main>
+      <section>
+        <h2>Current Focus</h2>
+        <p>
+          I split my time between two domains:
+        </p>
+        <ul>
+          <li><strong>Density Field Dynamics (DFD)</strong> — a scalar refractive framework for gravity and optics, with testable predictions for optical clocks, atom interferometers, and cosmology.</li>
+          <li><strong>Private equity &amp; special situations</strong> — sourcing and executing corporate carve-outs, industrial platforms, and complex restructurings for sponsors and independent sponsors.</li>
+        </ul>
+        <div class="pill-row">
+          <span class="pill">Optical clocks &amp; LPI tests</span>
+          <span class="pill">Refractive gravity / MOND scale</span>
+          <span class="pill">Industrial carve-outs</span>
+          <span class="pill">Distressed / complex M&amp;A</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Research — Density Field Dynamics</h2>
+        <p>
+          DFD is a scalar-field reformulation of gravity and optics in which a single field ψ on flat ℝ³ sets
+          both the optical index and test-mass acceleration:
+        </p>
+        <ul>
+          <li><strong>Optics:</strong> \( n = e^{\psi} \), so the local one-way speed of light is \( c_1 = c\,e^{-\psi} \).</li>
+          <li><strong>Dynamics:</strong> test-mass acceleration \( a = (c^2/2)\nabla \psi \).</li>
+        </ul>
+        <p>
+          The framework reproduces standard post-Newtonian tests in the weak-field limit while predicting
+          sector-resolved violations of Local Position Invariance (e.g. cavity–atom clock comparisons) and
+          specific numerical relations between the MOND acceleration scale, α, and H₀.
+        </p>
+        <ul>
+          <li><a href="https://densityfielddynamics.com">DFD research archive</a> — full set of preprints, figures, and experimental proposals.</li>
+          <li><a href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">All DFD-related Zenodo records</a>.</li>
+        </ul>
+        <p class="muted small">
+          Recent work includes optical-clock re-analyses (ROCIT, JILA-style datasets), scalar-field PPN
+          mapping, and proposals for cavity–atom altitude tests and matter-wave interferometry.
+        </p>
+      </section>
+
+      <section>
+        <h2>Private Equity &amp; Advisory</h2>
+        <p>
+          I have worked across private equity, special situations, and investment banking with a focus on
+          industrials, manufacturing, energy, and media/technology.
+        </p>
+        <ul>
+          <li>
+            <strong>Principal &amp; sponsor roles:</strong> sourcing, acquiring, operating, and exiting
+            industrial platforms (e.g. sheet metal fabrication, contract manufacturing, industrial services).
+          </li>
+          <li>
+            <strong>Advisory experience:</strong> former Managing Director at Revolution Capital Group and
+            Liberty Bay Capital; earlier in M&amp;A advisory at Houlihan Lokey.
+          </li>
+          <li>
+            <strong>Selected work:</strong> corporate carve-outs, distressed and special situations,
+            cross-border M&amp;A, and portfolio optimization across industrial and consumer sectors.
+          </li>
+        </ul>
+        <p class="small muted">
+          Detailed transaction history and case studies are available on request or via my
+          <a href="/cv.html">CV</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Writing, Talks &amp; Projects</h2>
+        <ul>
+          <li>
+            <strong>Density Field Dynamics series:</strong> papers on scalar refractive gravity, MOND-scale
+            relations, and optical-clock phenomenology
+            (<a href="https://densityfielddynamics.com">DFD archive</a> ·
+             <a href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">Zenodo</a>).
+          </li>
+          <li>
+            <strong>Applied work:</strong> internal whitepapers and presentations on industrial carve-outs,
+            operating turnarounds, and sourcing systems for lower middle market sponsors.
+          </li>
+          <li>
+            <strong>In development:</strong> a longer-form book project at the intersection of ownership,
+            operational leverage, and scientific thinking in decision-making.
+          </li>
+        </ul>
+        <p class="small muted">
+          A selection of public essays and talks will be listed on <a href="/writing.html">writing.html</a>
+          as they are released.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>
+          For research collaboration (optical clocks, atom interferometry, scalar gravity tests) or
+          transaction work (industrial carve-outs, special situations), feel free to reach out:
+        </p>
+        <ul>
+          <li>Email: <a href="mailto:gary@gtacompanies.com">gary@gtacompanies.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/gary-a-a223b65/">linkedin.com/in/gary-a-a223b65</a></li>
+          <li>GitHub: <a href="https://github.com/galcock">github.com/galcock</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © <span id="y"></span> Gary Alcock · Los Angeles, CA · All opinions and research are my own and do not represent any current or former employer.
       </p>
-      <p class="muted small">
-        All physics materials linked here are preprints unless otherwise specified in the corresponding publication record.
-      </p>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
