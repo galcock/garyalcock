@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gary Alcock — Research & Private Equity</title>
-  <meta name="description" content="Gary Alcock — independent researcher (Density Field Dynamics) and private equity executive focused on carve-outs, special situations, and quantitative gravity/optics research." />
+  <title>Gary Alcock — Research &amp; Private Equity</title>
+  <meta name="description" content="Gary Alcock — independent researcher (Density Field Dynamics) and private equity executive focused on corporate carve-outs, special situations, and quantitative gravity/optics research." />
   <link rel="icon" href="/favicon.ico" sizes="any">
   <meta name="theme-color" content="#ffffff">
   <meta name="robots" content="all">
@@ -89,6 +89,21 @@
 
     .contact a { margin-left: 0.2rem; }
 
+    .nav-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+      font-size: 0.9rem;
+    }
+
+    .nav-link {
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: transparent;
+    }
+
     main {
       display: flex;
       flex-direction: column;
@@ -138,27 +153,12 @@
       white-space: nowrap;
     }
 
-    .nav-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 8px;
-      font-size: 0.9rem;
-    }
-
-    .nav-link {
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      background: transparent;
-    }
-
-    .nav-link strong {
-      font-weight: 500;
-    }
-
     .muted {
       color: var(--muted);
+    }
+
+    .small {
+      font-size: 0.86rem;
     }
 
     footer {
@@ -168,8 +168,6 @@
       font-size: 0.82rem;
       color: var(--muted);
     }
-
-    .small { font-size: 0.86rem; }
 
     @media (max-width: 640px) {
       .page { padding: 16px 14px 40px; }
@@ -185,8 +183,8 @@
         <div>
           <h1>Gary Alcock</h1>
           <p class="subtitle">
-            Independent researcher (Density Field Dynamics) · Private equity &amp; special situations ·
-            carve-outs, distressed buyouts, and quantitative gravity/optics.
+            Independent researcher (Density Field Dynamics) · Private equity and special situations ·
+            Corporate carve-outs, distressed buyouts, and quantitative gravity and optics.
           </p>
         </div>
         <div class="contact">
@@ -196,12 +194,10 @@
       </div>
 
       <div class="nav-row" style="margin-top:10px">
-        <!-- Internal pages -->
-        <a class="nav-link" href="/research.html"><strong>Physics / DFD</strong></a>
-        <a class="nav-link" href="/consulting.html"><strong>Consulting &amp; deal flow</strong></a>
-        <a class="nav-link" href="/writing.html"><strong>Writing &amp; talks</strong></a>
+        <a class="nav-link" href="/research.html"><strong>Physics research</strong></a>
+        <a class="nav-link" href="/consulting.html"><strong>Consulting</strong></a>
+        <a class="nav-link" href="/writing.html"><strong>Writing</strong></a>
         <a class="nav-link" href="/contact.html"><strong>Contact</strong></a>
-        <!-- External -->
         <a class="nav-link" href="https://densityfielddynamics.com">DFD research archive</a>
         <a class="nav-link" href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">Zenodo preprints</a>
         <a class="nav-link" href="https://www.linkedin.com/in/gary-a-a223b65/">LinkedIn</a>
@@ -215,101 +211,104 @@
           I split my time between two domains:
         </p>
         <ul>
-          <li><strong>Density Field Dynamics (DFD)</strong> — a scalar refractive framework for gravity and optics, with testable predictions for optical clocks, atom interferometers, and cosmology.</li>
-          <li><strong>Private equity &amp; special situations</strong> — sourcing and executing corporate carve-outs, diverse platforms, and complex restructurings for sponsors and independent sponsors.</li>
+          <li>
+            <strong>Density Field Dynamics (DFD)</strong> — a scalar refractive framework for gravity and optics,
+            with testable predictions for optical clocks, atom interferometers, and cosmology.
+          </li>
+          <li>
+            <strong>Private equity and special situations</strong> — sourcing and executing corporate carve-outs,
+            industrial platforms, and complex restructurings for financial sponsors and independent sponsors.
+          </li>
         </ul>
         <div class="pill-row">
-          <span class="pill">Optical clocks &amp; LPI tests</span>
-          <span class="pill">Refractive gravity / MOND scale</span>
+          <span class="pill">Optical clocks and LPI tests</span>
+          <span class="pill">Refractive gravity and MOND scale</span>
           <span class="pill">Corporate carve-outs</span>
-          <span class="pill">Distressed / complex M&amp;A</span>
+          <span class="pill">Distressed and complex M&amp;A</span>
         </div>
       </section>
 
       <section>
         <h2>Research — Density Field Dynamics</h2>
         <p>
-          DFD is a scalar-field reformulation of gravity and optics in which a single field ψ on flat ℝ³ sets
-          both the optical index and test-mass acceleration:
+          Density Field Dynamics is a scalar-field reformulation of gravity and optics in which a single field, psi,
+          lives on flat three-dimensional space and controls both how light moves and how matter accelerates.
         </p>
         <ul>
-          <li><strong>Optics:</strong> \( n = e^{\psi} \), so the local one-way speed of light is \( c_1 = c\,e^{-\psi} \).</li>
-          <li><strong>Dynamics:</strong> test-mass acceleration \( a = (c^2/2)\nabla \psi \).</li>
+          <li><strong>Optics:</strong> the refractive index is n = exp(ψ), so the local one-way speed of light is c multiplied by exp(−ψ).</li>
+          <li><strong>Dynamics:</strong> test-mass acceleration is a = (c² / 2) times the gradient of ψ.</li>
         </ul>
         <p>
-          The framework reproduces standard post-Newtonian tests in the weak-field limit while predicting
-          sector-resolved violations of Local Position Invariance (e.g. cavity–atom clock comparisons) and
-          specific numerical relations between the MOND acceleration scale, α, and H₀.
+          In the weak-field limit the framework matches standard post-Newtonian tests but predicts
+          sector-resolved violations of Local Position Invariance, especially in cavity–atom and atom–atom
+          clock comparisons. It also produces simple numerical relations linking the MOND acceleration scale,
+          the fine-structure constant, and the Hubble parameter.
         </p>
         <ul>
-          <li><a href="https://densityfielddynamics.com">DFD research archive</a> — full set of preprints, figures, and experimental proposals.</li>
-          <li><a href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">All DFD-related Zenodo records</a>.</li>
+          <li>Full technical material: <a href="https://densityfielddynamics.com">densityfielddynamics.com</a></li>
+          <li>Preprints and datasets: <a href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">Zenodo record search</a></li>
         </ul>
-        <p class="muted small">
-          See <a href="/research.html">Physics / DFD</a> for a short overview and links.
-        </p>
       </section>
 
       <section>
-        <h2>Private Equity &amp; Advisory</h2>
+        <h2>Private Equity and Advisory</h2>
         <p>
-          I have worked across private equity, special situations, and investment banking with a focus on
-          industrials, manufacturing, A&D, energy, and media/technology.
+          I work across private equity, special situations, and advisory with a focus on corporate carve-outs,
+          complex transactions, and operationally intensive situations.
         </p>
         <ul>
           <li>
-            <strong>Principal &amp; sponsor roles:</strong> sourcing, acquiring, operating, and exiting
-            platforms across multiple industries.
+            <strong>Corporate carve-outs and platforms:</strong> sourcing, acquiring, operating, and exiting platforms
+            in industrials, manufacturing, and distribution, often involving multi-plant or multi-division separations.
           </li>
           <li>
-            <strong>Advisory experience:</strong> former Managing Director at Revolution Capital Group and
-            Liberty Bay Capital; earlier in M&amp;A advisory at Houlihan Lokey.
+            <strong>Sectors:</strong> industrials, manufacturing, distribution, aerospace and defense, media, technology,
+            healthcare, business services, and consumer — including packaging, medical devices, food products, and beverages.
           </li>
           <li>
-            <strong>Representative work:</strong> corporate carve-outs, distressed and special situations,
-            cross-border M&amp;A, and portfolio optimization across industrial, A&D, media, tech, healthcare and consumer sectors.
-          </li>
-        </ul>
-        <p class="muted small">
-          For engagement details and a simple inquiry form, see <a href="/consulting.html">Consulting &amp; deal flow</a>.
-        </p>
-      </section>
-
-      <section>
-        <h2>Writing, Talks &amp; Projects</h2>
-        <ul>
-          <li>
-            <strong>Density Field Dynamics series:</strong> papers on scalar refractive gravity, MOND-scale
-            relations, and optical-clock phenomenology
-            (<a href="https://densityfielddynamics.com">DFD archive</a> ·
-             <a href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">Zenodo</a>).
-          </li>
-          <li>
-            <strong>Lazy Universe</strong> — non-technical book on DFD, <em>in active development</em>.
-          </li>
-          <li>
-            <strong>Skip the MBA, Own the Company</strong> — business book on ownership, leverage, and deal
-            structuring in the lower middle market, in revision.
+            <strong>Background:</strong> former Managing Director at Revolution Capital Group and Liberty Bay Capital, with
+            prior M&amp;A advisory experience at Houlihan Lokey.
           </li>
         </ul>
         <p class="small muted">
-          A selection of public essays and talks is listed on <a href="/writing.html">writing.html</a>.
+          For a more detailed view of my transaction work and current consulting platform, see
+          <a href="https://gtacompanies.com">gtacompanies.com</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Writing, Talks, and Projects</h2>
+        <ul>
+          <li>
+            <strong>Density Field Dynamics series:</strong> technical work on scalar refractive gravity, acceleration-scale
+            relations, and optical-clock phenomenology
+            (<a href="https://densityfielddynamics.com">DFD archive</a> and
+             <a href="https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Alcock,%20Gary%22">Zenodo</a>).
+          </li>
+          <li>
+            <strong>Skip the MBA, Own the Company:</strong> a book project on ownership, leverage, and how to think about
+            buying and building businesses instead of collecting job titles.
+          </li>
+          <li>
+            <strong>Lazy Universe:</strong> a DFD-focused book in active development, aimed at explaining the physics program,
+            the experimental stakes, and the broader picture for non-specialists.
+          </li>
+        </ul>
+        <p class="small muted">
+          Selected public essays, talks, and excerpts will be listed on writing and contact pages as they are released.
         </p>
       </section>
 
       <section>
         <h2>Contact</h2>
         <p>
-          For research collaboration (optical clocks, atom interferometry, scalar gravity tests) or
-          transaction work (carve-outs, special situations), feel free to reach out:
+          For research collaboration (optical clocks, atom interferometry, scalar gravity tests) or transaction work
+          (corporate carve-outs, special situations), you can reach me at:
         </p>
         <ul>
           <li>Email: <a href="mailto:gary@gtacompanies.com">gary@gtacompanies.com</a></li>
           <li>LinkedIn: <a href="https://www.linkedin.com/in/gary-a-a223b65/">linkedin.com/in/gary-a-a223b65</a></li>
         </ul>
-        <p class="small muted">
-          A separate form for transaction inquiries is available on <a href="/consulting.html">consulting.html</a>.
-        </p>
       </section>
     </main>
 
