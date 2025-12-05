@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact — Gary Alcock</title>
-  <meta name="description" content="Contact information for Gary Alcock for consulting, physics collaborations, and writing." />
+  <title>Gary Alcock — Contact</title>
+  <meta name="description" content="Contact details for research collaboration, private equity mandates, and special situations advisory." />
   <link rel="icon" href="/favicon.ico" sizes="any">
   <meta name="theme-color" content="#ffffff">
   <meta name="robots" content="all">
@@ -20,6 +20,7 @@
       --accent: #0b63ce;
       --border: #d3d4dd;
     }
+
     @media (prefers-color-scheme: dark) {
       :root {
         --bg: #050711;
@@ -30,7 +31,9 @@
         --border: #242735;
       }
     }
+
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
@@ -39,50 +42,117 @@
       color: var(--text);
       line-height: 1.55;
     }
-    a { color: var(--accent); text-decoration: none; }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
     a:hover { text-decoration: underline; }
-    .page { max-width: 960px; margin: 0 auto; padding: 24px 18px 48px; }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+
     header {
       padding: 12px 0 20px;
       border-bottom: 1px solid var(--border);
       margin-bottom: 24px;
     }
+
     .name-row {
-      display: flex; justify-content: space-between; align-items: flex-end;
-      gap: 12px; flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 12px;
+      flex-wrap: wrap;
     }
-    h1 { font-size: 1.9rem; font-weight: 600; margin: 0; }
+
+    h1 {
+      font-size: 1.9rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
     .subtitle {
-      margin: 4px 0 0; font-size: 0.98rem; color: var(--muted); max-width: 48rem;
+      margin: 4px 0 0;
+      font-size: 0.98rem;
+      color: var(--muted);
+      max-width: 48rem;
     }
-    .contact { font-size: 0.9rem; color: var(--muted); }
+
+    .contact {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
     .contact a { margin-left: 0.2rem; }
+
     .nav-row {
-      display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; font-size: 0.9rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+      font-size: 0.9rem;
     }
+
     .nav-link {
-      padding: 6px 10px; border-radius: 999px;
-      border: 1px solid var(--border); background: transparent;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: transparent;
     }
+
     main {
-      display: flex; flex-direction: column; gap: 20px; margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 12px;
     }
+
     section {
-      background: var(--bg-alt); border: 1px solid var(--border);
-      border-radius: 12px; padding: 16px 18px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
     }
+
     section h2 {
-      font-size: 1.05rem; margin: 0 0 8px; font-weight: 600;
+      font-size: 1.05rem;
+      margin: 0 0 8px;
+      font-weight: 600;
     }
-    section p { margin: 4px 0 8px; font-size: 0.95rem; }
-    ul { margin: 6px 0 2px; padding-left: 18px; font-size: 0.94rem; }
+
+    section p {
+      margin: 4px 0 8px;
+      font-size: 0.95rem;
+    }
+
+    ul {
+      margin: 6px 0 2px;
+      padding-left: 18px;
+      font-size: 0.94rem;
+    }
+
     li { margin-bottom: 4px; }
-    .muted { color: var(--muted); }
-    .small { font-size: 0.86rem; }
-    footer {
-      margin-top: 24px; padding-top: 12px;
-      border-top: 1px solid var(--border); font-size: 0.82rem; color: var(--muted);
+
+    .muted {
+      color: var(--muted);
     }
+
+    .small {
+      font-size: 0.86rem;
+    }
+
+    footer {
+      margin-top: 24px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
     @media (max-width: 640px) {
       .page { padding: 16px 14px 40px; }
       header { margin-bottom: 18px; }
@@ -97,7 +167,7 @@
         <div>
           <h1>Contact</h1>
           <p class="subtitle">
-            Best way to reach me for consulting, research, or writing.
+            For research collaboration, corporate carve-outs, special situations, or anything else where our worlds overlap.
           </p>
         </div>
         <div class="contact">
@@ -106,42 +176,68 @@
         </div>
       </div>
 
-      <div class="nav-row">
-        <a class="nav-link" href="/index.html">Home</a>
-        <a class="nav-link" href="/research.html">Physics / DFD</a>
-        <a class="nav-link" href="/consulting.html">Consulting</a>
-        <a class="nav-link" href="/writing.html">Writing</a>
+      <div class="nav-row" style="margin-top:10px">
+        <a class="nav-link" href="/index.html"><strong>Home</strong></a>
+        <a class="nav-link" href="/research.html"><strong>Physics research</strong></a>
+        <a class="nav-link" href="/consulting.html"><strong>Consulting</strong></a>
+        <a class="nav-link" href="/writing.html"><strong>Writing</strong></a>
+        <a class="nav-link" href="/contact.html"><strong>Contact</strong></a>
+        <a class="nav-link" href="https://densityfielddynamics.com">DFD research archive</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/gary-a-a223b65/">LinkedIn</a>
       </div>
     </header>
 
     <main>
       <section>
-        <h2>Email</h2>
+        <h2>Primary Contact</h2>
+        <p>
+          The simplest way to reach me is by email:
+        </p>
         <ul>
-          <li>
-            <strong>All inquiries:</strong>
-            <a href="mailto:gary@gtacompanies.com">gary@gtacompanies.com</a>
-          </li>
+          <li>Email: <a href="mailto:gary@gtacompanies.com">gary@gtacompanies.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/gary-a-a223b65/">linkedin.com/in/gary-a-a223b65</a></li>
+          <li>DFD site: <a href="https://densityfielddynamics.com">densityfielddynamics.com</a></li>
+          <li>Consulting platform: <a href="https://gtacompanies.com">gtacompanies.com</a></li>
         </ul>
-        <p class="small muted">
-          For transaction mandates, the short inquiry form on
-          <a href="/consulting.html">consulting.html</a> can be a useful starting point.
+      </section>
+
+      <section>
+        <h2>Research Collaboration</h2>
+        <p>
+          For physics and DFD-related work, I am most interested in:
+        </p>
+        <ul>
+          <li>Optical clock experiments (especially long-baseline or multi-species comparisons).</li>
+          <li>Atom interferometry and related precision tests of gravity and Local Position Invariance.</li>
+          <li>Concrete opportunities to test or falsify scalar refractive gravity models against data.</li>
+        </ul>
+        <p>
+          If you have a dataset, a planned experiment, or a live system where DFD could make a sharp prediction,
+          feel free to write directly:
+          <a href="mailto:gary@gtacompanies.com">gary@gtacompanies.com</a>.
         </p>
       </section>
 
       <section>
-        <h2>Other links</h2>
+        <h2>Private Equity &amp; Special Situations</h2>
+        <p>
+          For sponsors, independent sponsors, and family offices, typical conversations include:
+        </p>
         <ul>
-          <li><a href="https://densityfielddynamics.com">densityfielddynamics.com</a> — physics and DFD.</li>
-          <li><a href="https://gtacompanies.com">gtacompanies.com</a> — consulting platform.</li>
-          <li><a href="https://www.linkedin.com/in/gary-a-a223b65/">LinkedIn</a></li>
+          <li>Corporate carve-out opportunities across industrials, manufacturing, and distribution.</li>
+          <li>Complex or distressed situations where the path is not obvious from a CIM.</li>
+          <li>Proprietary deal flow mandates and how I work through GTA Companies.</li>
         </ul>
+        <p>
+          You can either email me directly or use the more detailed request form on the
+          <a href="/consulting.html">consulting page</a>.
+        </p>
       </section>
     </main>
 
     <footer>
       <p>
-        © <span id="y"></span> Gary Alcock · Los Angeles, CA.
+        © <span id="y"></span> Gary Alcock · Los Angeles, CA · All opinions and views are my own and do not represent any current or former employer.
       </p>
     </footer>
   </div>
